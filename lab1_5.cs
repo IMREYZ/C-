@@ -16,7 +16,7 @@ namespace main
             double square = Math.Sqrt(perimetr * (perimetr - side) * (perimetr - side) * (perimetr - side));
 
             Console.WriteLine("Сторона Площадь");
-            Console.WriteLine($" {string.Format("{0:N2}", side)}   {string.Format("{0:N2}", square)}");
+            Console.WriteLine($" {side:F2}   {square:F2}");
  
         }
     }
